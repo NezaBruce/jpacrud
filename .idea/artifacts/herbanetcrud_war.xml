@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="herbanetcrud:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>herbanetcrud</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="herbanetcrud-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="herbanetcrud:war exploded" />
+    </root>
+  </artifact>
+</component>
